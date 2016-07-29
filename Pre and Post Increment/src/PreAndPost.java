@@ -80,8 +80,8 @@ public class PreAndPost {
 		}
 
 		x = 0;
-		y = 0;
-		z = 0;
+		y = 1;
+		z = 1;
 		y *= --x;
 		z *= -x;
 		// 4. Predict the values of x, y, and z
@@ -119,7 +119,7 @@ public class PreAndPost {
 			System.out.println("Step 6: Try again");
 		}
 
-		int i = 0;
+		int i = 1;
 		// 7. What is the value of i when evaluated by if?
 		int my_i = 0;
 		if (i++ == my_i) {
@@ -128,7 +128,7 @@ public class PreAndPost {
 			System.out.println("Step 7: Try again");
 		}
 
-		i = 0;
+		i = 1;
 		// 8. What is the value of i when evaluated by if?
 		my_i = 0;
 		if (++i == my_i) {
@@ -138,7 +138,6 @@ public class PreAndPost {
 
 		}
 		
-		// 9. Uncomment the statements that will compile
 		@SuppressWarnings("unused")
 		Integer my_integer = 1;
 		@SuppressWarnings("unused")
@@ -146,9 +145,10 @@ public class PreAndPost {
 		@SuppressWarnings("unused")
 		Number my_number = 1;
 		
-		// my_integer++;
-		// my_float++;
-		// my_number++;
+		// 9. Uncomment the statements that will compile
+//		 my_integer++;
+//		 my_float++;
+//		 my_number++;
 		
 		// Bonus: what are the values of these variables (if they work)?
 	}
